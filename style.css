@@ -1,0 +1,17 @@
+body {
+    background-color: #fff;
+
+}
+
+.window {
+    width: 2400px;
+    height: 3800px;
+    position: absolute;
+    background-color: #ffff;
+}
+
+.blue {
+    position: relative;
+    background-color: #232222;
+    width: 3px;
+}
