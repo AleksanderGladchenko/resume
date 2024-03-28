@@ -17,7 +17,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 1980px;
-    border: solid;
 }
 
 .blue h1 {
@@ -32,7 +31,7 @@ body {
 }
 
 .contacts > b > h1 {
-    font: 30px "Avenir Next bold";
+    font: 35px "Avenir Next bold";
 }
 
 .blue img {
@@ -41,30 +40,30 @@ body {
 }
 
 .contacts > span {
-    font: 20px "Avenir Next regular";
+    font: 25px "Avenir Next regular";
 }
 
 .contacts h2 {
-    font: 20px "Avenir Next bold";
+    font: 40px "Avenir Next bold";
 }
 
 .contacts > h3 {
-    font: 20px "Avenir Next bold";
+    font: 25px "Avenir Next bold";
 }
 
 .white {
     padding-top: 20px;
     margin-left: 100px;
     height: 1960px;
-    border: solid;
+    width: 1080px;
 }
 
 .white p {
-    font: 35px "Avenir Next bold";
+    font: 40px "Avenir Next bold";
 }
 
 .white > h3 {
-    font: 22px "Avenir Next regular";
+    font: 25px "Avenir Next regular";
     color: #595959;
 }
 
@@ -73,28 +72,28 @@ li {
 }
 
 .white > h2 {
-    font: 25px "Avenir Next bold";
+    font: 28px "Avenir Next bold";
 }
 
 .white > h1 {
-    font: 45px "Avenir Next bold";
+    font: 10px "Avenir Next bold";
 }
 
 .white h1 {
-    font: 25px "Avenir Next bold";
+    font: 28px "Avenir Next bold";
     color: white;
     padding: 0 60% 0 15px;
     margin-right: 100px;
     background-color: #1e2a3a;
+    border-radius: 10px;
 }
 
 .summary > li {
-    font: 22px "Avenir Next regular";
+    font: 28px "Avenir Next regular";
     color: #595959;
 }
-
 .skills > li {
-    font: 22px "Avenir Next bold";
+    font: 28px "Avenir Next bold";
     color: #595959;
 }
 .workExperience{
@@ -102,19 +101,35 @@ li {
 }
 .workExperience>h3{
     position: relative;
-    font: 22px "Avenir Next bold";
+    font: 28px "Avenir Next bold";
     margin: -17px 0 40px 0;
 }
 .long{
     position: relative;
     top: 15px;
-    width: 1150px;
+    width: 90%;
     height: 2px;
     background: #595959;
 }
 .workExperience>li{
-    font: 22px "Avenir Next regular";
+    font: 28px "Avenir Next regular";
     list-style-type: none;
     color: black;
     padding: 10px;
+}
+
+.Education>li{
+    font: 28px "Avenir Next regular";
+    list-style-type: none;
+    color: black;
+    padding: 10px;
+}
+.Languages{
+    font: 28px "Avenir Next bold";
+    color: #595959;
+}
+.Portfolio{
+    font: 33px "Avenir Next regular";
+    list-style-type: none;
+    color: black;
 }
